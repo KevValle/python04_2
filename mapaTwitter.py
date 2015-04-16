@@ -20,10 +20,10 @@ import sys
 
 #Función para conectar a twitter
 def oauth_login():
-    CONSUMER_KEY = 'uKAS8Tx4UItk5NI2u8jQPH8VV'
-    CONSUMER_SECRET = 'rro3oGH5cz8Z2OgiNKFIY0JSoQX9CBDhI8AAEYZUzAjCVE4AP1'
-    OAUTH_TOKEN = '359375683-hGVHDpenpwlpUKwtbMbyvShuzMsQEHxvrwNGWlqL'
-    OAUTH_TOKEN_SECRET = '4piR2vrGimMI2OMuzuXKNHXBNYNH9cejoWQIwx9yPh6EI'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''
     
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
